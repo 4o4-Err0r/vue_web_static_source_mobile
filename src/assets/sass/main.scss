@@ -1,0 +1,11 @@
+@import '../../lib/hotcss/px2rem.scss';
+$main-color:#ffaa05;
+@mixin btn {
+    height:px2rem(36);
+   border-radius: px2rem(18);
+    color:#fff;
+    line-height:px2rem(36);
+    padding:0 px2rem(10);
+    font-size: px2rem(24);
+    margin-right:px2rem(10);
+}

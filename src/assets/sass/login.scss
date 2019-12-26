@@ -1,0 +1,105 @@
+@import '_base.scss';
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #666;
+    
+  }
+  
+  input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #666;
+    
+  }
+  
+  input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #666;
+    
+  }
+  
+  input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: #666;
+    
+  }
+  :-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+   }
+.login_bg{
+    background-image: url(../assets/images/login.jpg);
+    background-size: cover;
+    position: relative;
+    height:100%;
+}
+.login_logo{
+    text-align: center;
+    color: #fff;
+    font-size: px2rem(42/2);
+    letter-spacing: 2px;
+    padding-top:px2rem(220/2);
+    font-family: "Microsoft YaHei";
+}
+.login_box {
+    width: px2rem(636/2);
+    height: px2rem(495/2);
+    // border: 1px solid rgba(255, 255, 255, 0.5);
+    // border-radius: px2rem(20);
+    // background: rgba(255, 255, 255, 0.3);
+    
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:px2rem(100/2);
+    box-sizing: border-box; 
+    font-size:px2rem(32/2);
+    .loginBtn{
+        margin-top:px2rem(80); text-align:center;font-weight:bold;
+        button{width: px2rem(600/2);
+               height:px2rem(50);
+               padding-left: px2rem(26);
+               span{b{font-size: px2rem(42/2);
+                       font-weight: normal;
+                       
+                      letter-spacing: px2rem(42/2);}}}
+       
+    }
+    .input_box {
+        width: px2rem(600/2);
+        height:px2rem(80/2);
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: px2rem(10/2);
+        background: rgba(250, 250, 250, 0.2); 
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items:center;
+        margin-top:px2rem(100/2);
+        .red_style{
+            position: absolute;
+            top:px2rem(90/2) ;
+            left:0px;
+            font-size: px2rem(28/2);
+         
+        }
+        .user {
+            color: #eee;
+           
+            width:40px;
+            text-align: center;
+          
+            font-size: 14px; }
+        .iconfont{
+            color: #eee;
+            font-size: px2rem(32/2);
+            text-indent: px2rem(10/2);
+        }
+       .input_style {
+            height: px2rem(80/2);
+            
+            width: px2rem(600/2);
+            font-size: px2rem(40/2);
+            border: none;
+            outline: none;
+            color: rgb(255, 255, 255);
+            text-indent: px2rem(15/2);
+            background-color: rgba($color: #000000, $alpha: 0.0);
+          }
+          
+    }
+}
